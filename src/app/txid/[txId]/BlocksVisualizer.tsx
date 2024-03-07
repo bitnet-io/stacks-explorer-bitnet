@@ -208,7 +208,7 @@ const Block: React.FC<BlockProps> = ({
     <Box css={blockWrapperStyle} bg={`block.${colorMode}`}>
       <Box css={blockAndArrowStyle}>
         {displayBlockchainIcons && (
-          <Box css={blockchainIconWrapperStyle} backgroundColor={'#f7931a'}>
+          <Box css={blockchainIconWrapperStyle} backgroundColor={'#EE198D'}>
             <TbCurrencyBitcoin color={'#fff'} />
           </Box>
         )}

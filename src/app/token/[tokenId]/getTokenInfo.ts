@@ -122,11 +122,11 @@ async function getDetailedTokenInfo(tokenId: string, basicTokenInfo: BasicTokenI
     const tvl = tokenInfoResponse?.market_data?.total_value_locked?.usd || null;
 
     const currentPrice = tokenInfoResponse?.market_data?.current_price?.usd || null;
-    const currentPriceInBtc = tokenInfoResponse?.market_data?.current_price?.btc || null;
+    const currentPriceInBtc = tokenInfoResponse?.market_data?.current_price?.bitn || null;
     const priceChangePercentage24h =
       tokenInfoResponse?.market_data?.price_change_percentage_24h || null;
     const priceInBtcChangePercentage24h =
-      tokenInfoResponse?.market_data?.price_change_percentage_24h_in_currency?.btc || null;
+      tokenInfoResponse?.market_data?.price_change_percentage_24h_in_currency?.bitn || null;
 
     const marketCap = tokenInfoResponse?.market_data?.market_cap?.usd || null;
     const tradingVolume24h = tokenInfoResponse?.market_data?.total_volume?.usd || null;
