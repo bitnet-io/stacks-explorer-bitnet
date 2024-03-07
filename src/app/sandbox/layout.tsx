@@ -8,7 +8,7 @@ export async function generateMetadata(
   { params }: any,
   parent: ResolvingMetadata
 ): Promise<Metadata> {
-  const title = `Sandbox - Stacks Explorer by Hiro`;
+  const title = `Sandbox - BitStacks Explorer by Hiro`;
   return Promise.resolve({
     ...meta,
     title,

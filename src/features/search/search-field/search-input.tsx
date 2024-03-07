@@ -5,8 +5,8 @@ import { Input, InputProps } from '../../../ui/Input';
 export function SearchInput(props: InputProps) {
   return (
     <Input
-      id="search-bar"
-      name="search-bar"
+      id="search-foo"
+      name="search-foo"
       display="block"
       borderRadius="xl"
       bg="whiteAlpha.200"
@@ -17,7 +17,7 @@ export function SearchInput(props: InputProps) {
       transitionProperty="border,box-shadow"
       boxShadow={'0 0 0 1px var(--stacks-colors-whiteAlpha-200)'}
       autoComplete="off"
-      placeholder="Search the Stacks blockchain"
+      placeholder="Search the BitStacks explorer"
       pl={12}
       maxW={'lg'}
       _placeholder={{ color: 'white' }}

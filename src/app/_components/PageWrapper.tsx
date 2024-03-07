@@ -26,21 +26,21 @@ function WrapperWithBg({ children }: { children: ReactNode }) {
       position="relative"
       overflow="hidden"
       bg={useColorModeValue(
-        `linear-gradient(
-                 29.53deg, 
+	 `linear-gradient(
+                 29.53deg,
                  #9528F7 2.94%, 
-                 #522DE7 39.91%, 
-                 #221A71 76.87%, 
+                 #1ec0ff 39.91%
+                 #1ec0ff 76.87%, 
                  #0F102B 93.08%
-               ), 
-               white`,
+               ),
+               black`,
         `linear-gradient(
-                 29.53deg, 
+                 29.53deg,
                  #9528F7 2.94%, 
-                 #522DE7 39.91%, 
-                 #221A71 76.87%, 
+                 #1ec0ff 39.91%
+                 #1ec0ff 76.87%, 
                  #0F102B 93.08%
-               ), 
+               ),
                black`
       )}
       bgRepeat="no-repeat, repeat"
@@ -60,24 +60,6 @@ export function PageWrapper({
 }) {
   return (
     <>
-      <IncidentsStatusBarWithErrorBoundary />
-      <StatusBarBase
-        impact={IncidentImpact.None}
-        content={
-          <TextLink href="https://stx.is/hiro-explorer-vote" target="_blank">
-            <Flex direction={['column', 'column', 'row']} gap={1}>
-              <Text
-                color={getColor(IncidentImpact.None)}
-                fontWeight={'medium'}
-                fontSize={'14px'}
-                lineHeight={'1.5'}
-              >
-                The Nakamoto SIP is up for community vote until Bitcoin block 833950 (~March 9th).
-              </Text>
-            </Flex>
-          </TextLink>
-        }
-      />
       <WrapperWithBg>
         <Flex mx="auto" width="full" maxWidth="container.xl" flexDirection="column" p={6}>
           <NavBar tokenPrice={tokenPrice} />

@@ -34,7 +34,7 @@ export const MempoolTxListItem: FC<MempoolTxsListItemProps> = memo(({ tx, ...res
   const leftTitle = useMemo(
     () => (
       <Title display="block" fontSize="sm">
-        <TxTitle tx={tx} showPrice={true} />
+        <TxTitle tx={tx} showPrice={false} />
       </Title>
     ),
     [tx]

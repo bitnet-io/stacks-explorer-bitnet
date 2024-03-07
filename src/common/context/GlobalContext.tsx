@@ -40,7 +40,7 @@ export const GlobalContext = createContext<GlobalContextProps>({
   btcTxBaseUrls: NetworkModeBtcTxBaseUrlMap,
   btcAddressBaseUrls: NetworkModeBtcAddressBaseUrlMap,
   activeNetwork: {
-    label: 'hiro.so',
+    label: 'explorer.bitnft.io',
     url: NetworkModeUrlMap[NetworkModes.Mainnet],
     btcBlockBaseUrl: NetworkModeBtcBlockBaseUrlMap[NetworkModes.Mainnet],
     btcTxBaseUrl: NetworkModeBtcTxBaseUrlMap[NetworkModes.Mainnet],
@@ -101,7 +101,7 @@ export const AppContextProvider: FC<{
   const networks: Record<string, Network> = useMemo<Record<string, Network>>(
     () => ({
       [apiUrls[NetworkModes.Mainnet]]: {
-        label: 'hiro.so',
+        label: 'explorer.bitnft.io',
         url: apiUrls[NetworkModes.Mainnet],
         btcBlockBaseUrl: NetworkModeBtcBlockBaseUrlMap[NetworkModes.Mainnet],
         btcTxBaseUrl: NetworkModeBtcTxBaseUrlMap[NetworkModes.Mainnet],
@@ -110,7 +110,7 @@ export const AppContextProvider: FC<{
         mode: NetworkModes.Mainnet,
       },
       [apiUrls[NetworkModes.Testnet]]: {
-        label: 'hiro.so',
+        label: 'explorer.bitnft.io',
         url: apiUrls[NetworkModes.Testnet],
         btcBlockBaseUrl: NetworkModeBtcBlockBaseUrlMap[NetworkModes.Testnet],
         btcTxBaseUrl: NetworkModeBtcTxBaseUrlMap[NetworkModes.Testnet],

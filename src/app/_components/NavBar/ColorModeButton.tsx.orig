@@ -13,7 +13,7 @@ export const ColorModeButton: FC<IconButtonProps> = props => {
   return (
     <IconButton
       icon={<Icon />}
-      onClick={useColorMode}
+      onClick={toggleColorMode}
       color="black"
       title="Toggle color mode"
       {...props}

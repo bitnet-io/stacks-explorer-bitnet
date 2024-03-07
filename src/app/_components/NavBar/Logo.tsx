@@ -13,7 +13,7 @@ export const Logo: FC = () => {
         color="white"
         flexShrink={0}
         aria-label="Homepage"
-        title="Stacks Explorer"
+        title="BitStacks Explorer"
       />
     </ExplorerLink>
   );

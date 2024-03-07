@@ -52,7 +52,7 @@ export const SearchBox = React.memo(() => {
             color="white"
             icon={<Icon as={PiX} size={3} />}
             onClick={() => dispatch(clearSearchTerm())}
-            aria-label={'Clear search bar'}
+            aria-label={'Clear search foo'}
             _hover={{ bg: 'transparent' }}
           />
         </InputRightElement>

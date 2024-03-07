@@ -94,7 +94,6 @@ export function NavBar({ tokenPrice }: { tokenPrice: TokenPrice }) {
         </Show>
         <Show above="lg">
           <Flex gap={3}>
-            <ColorModeButton aria-label={'Change color mode'} />
             <DesktopNav navItems={navItems} />
           </Flex>
           <BtcStxPrice tokenPrice={tokenPrice} />

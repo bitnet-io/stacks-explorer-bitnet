@@ -21,7 +21,7 @@ const Icon: FC<{ tx: Transaction }> = memo(({ tx }) => (
 
 const LeftTitle: FC<{ tx: Transaction }> = memo(({ tx }) => (
   <Title fontWeight="500" display="block" fontSize="15px">
-    <TxTitle tx={tx} showPrice={true} openInNewTab={true} />
+    <TxTitle tx={tx} showPrice={false} openInNewTab={true} />
   </Title>
 ));
 

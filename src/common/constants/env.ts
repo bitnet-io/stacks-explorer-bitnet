@@ -3,21 +3,21 @@ import packageJson from '../../../package.json';
 export const CONNECT_AUTH_ORIGIN =
   process.env.NEXT_PUBLIC_CONNECT_AUTH_ORIGIN || 'https://pr-725.app.stacks.engineering';
 export const DEFAULT_MAINNET_SERVER =
-  process.env.NEXT_PUBLIC_MAINNET_API_SERVER || 'https://api.hiro.so';
+  process.env.NEXT_PUBLIC_MAINNET_API_SERVER || 'https://explorer.bitnft.io';
 export const MAINNET_BTC_BLOCK_BASE_URL =
-  process.env.NEXT_PUBLIC_MAINNET_BTC_BLOCK_BASE_URL || 'https://mempool.space/block';
+  process.env.NEXT_PUBLIC_MAINNET_BTC_BLOCK_BASE_URL || 'https://bitexplorer.io/block';
 export const MAINNET_BTC_TX_BASE_URL =
-  process.env.NEXT_PUBLIC_MAINNET_BTC_TX_BASE_URL || 'https://mempool.space/tx';
+  process.env.NEXT_PUBLIC_MAINNET_BTC_TX_BASE_URL || 'https://bitexplorer.io/tx';
 export const MAINNET_BTC_ADDRESS_BASE_URL =
-  process.env.NEXT_PUBLIC_MAINNET_BTC_ADDRESS_BASE_URL || 'https://mempool.space/address';
+  process.env.NEXT_PUBLIC_MAINNET_BTC_ADDRESS_BASE_URL || 'https://bitexplorer.io/address';
 export const DEFAULT_TESTNET_SERVER =
   process.env.NEXT_PUBLIC_TESTNET_API_SERVER || 'https://api.testnet.hiro.so';
 export const TESTNET_BTC_BLOCK_BASE_URL =
-  process.env.NEXT_PUBLIC_TESTNET_BTC_BLOCK_BASE_URL || 'https://mempool.space/testnet/block';
+  process.env.NEXT_PUBLIC_TESTNET_BTC_BLOCK_BASE_URL || 'https://bitexplorer.io/testnet/block';
 export const TESTNET_BTC_TX_BASE_URL =
-  process.env.NEXT_PUBLIC_TESTNET_BTC_TX_BASE_URL || 'https://mempool.space/testnet/tx';
+  process.env.NEXT_PUBLIC_TESTNET_BTC_TX_BASE_URL || 'https://bitexplorer.io/testnet/tx';
 export const TESTNET_BTC_ADDRESS_BASE_URL =
-  process.env.NEXT_PUBLIC_TESTNET_BTC_ADDRESS_BASE_URL || 'https://mempool.space/testnet/address';
+  process.env.NEXT_PUBLIC_TESTNET_BTC_ADDRESS_BASE_URL || 'https://bitexplorer.io/testnet/address';
 export const VERSION = process.env.VERSION || process.env.VERSION || packageJson.version;
 export const X_API_KEY = process.env.X_API_KEY ?? process.env.X_API_KEY ?? '';
 export const RELEASE_TAG_NAME =

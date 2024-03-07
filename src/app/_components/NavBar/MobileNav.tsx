@@ -25,8 +25,6 @@ export const MobileNav: FC<{ navItems: NavItem[]; close: () => void }> = ({ navI
       gap={6}
     >
       <Flex justifyContent={'space-between'}>
-        <ColorModeButton aria-label={'Change color mode'} color="invert" borderWidth={'1px'} />
-        <IconButton onClick={close} icon={<PiX />} aria-label={'Close menu'} />
       </Flex>
       {navItems.map(navItem => (
         <MobileNavItem key={navItem.id} {...navItem} />

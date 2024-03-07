@@ -17,11 +17,11 @@ export function LinksMenu(props: { links: TokenLinks }) {
     <Menu>
       <MenuButton
         as={Button}
-        backgroundColor={colorMode === 'light' ? 'white' : 'transparent'}
-        variant={colorMode === 'light' ? undefined : 'outline'}
+        backgroundColor={colorMode === 'dark' ? 'white' : 'transparent'}
+        variant={colorMode === 'dark' ? undefined : 'outline'}
         color={'textTitle.light'}
         rightIcon={<Icon as={BsChevronDown} size="11px" color={'textCaption.light'} />}
-        _hover={{ backgroundColor: colorMode === 'light' ? 'white' : 'transparent' }}
+        _hover={{ backgroundColor: colorMode === 'dark' ? 'black' : 'transparent' }}
       >
         Links
       </MenuButton>

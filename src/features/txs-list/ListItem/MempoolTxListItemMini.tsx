@@ -24,7 +24,7 @@ export const MempoolTxListItemMini: FC<MempoolTxsListItemProps> = memo(({ tx }) 
   const leftTitle = useMemo(
     () => (
       <Title fontWeight="500" display="block" fontSize="16px">
-        <TxTitle tx={tx} showPrice={true} openInNewTab={true} />
+        <TxTitle tx={tx} showPrice={false} openInNewTab={true} />
       </Title>
     ),
     [tx]

@@ -42,7 +42,7 @@ export const AppConfig: React.FC<{
     <Connect
       authOptions={{
         appDetails: {
-          name: 'Stacks Explorer',
+          name: 'BitStacks Explorer',
           icon: '/stx-circle.png',
         },
         userSession,

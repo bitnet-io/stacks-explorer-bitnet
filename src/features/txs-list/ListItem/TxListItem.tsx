@@ -28,7 +28,7 @@ const Icon: FC<{ tx: Transaction }> = memo(({ tx }) => (
   <TxIcon txType={tx.tx_type} txStatus={getTransactionStatus(tx)} />
 ));
 
-const LeftTitle: FC<{ tx: Transaction }> = memo(({ tx }) => <TxTitle tx={tx} showPrice={true} />);
+const LeftTitle: FC<{ tx: Transaction }> = memo(({ tx }) => <TxTitle tx={tx} showPrice={false} />);
 
 const LeftSubtitle: FC<{ tx: Transaction }> = memo(({ tx }) => (
   <Stack
