@@ -1,7 +1,7 @@
-# Stacks Explorer
+# BitStacks Explorer
 
 
-![An image of the Stacks Explorer](/explorer-image.png 'Stacks Explorer')
+![s1](https://github.com/bitnet-io/stacks-explorer-bitnet/releases/download/image-banner/explore-bitstacks-web-banner.png)
 
 
 ![CI/CD](https://github.com/blockstack/explorer/actions/workflows/ci.yml/badge.svg)
